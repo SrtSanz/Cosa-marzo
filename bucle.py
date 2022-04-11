@@ -36,7 +36,6 @@ while not game_over:
     #Aquí no hay nada que hacer
     #Refrescar pantalla
     pantalla.fill((255, 0, 0))
-    bola = pg.image.load(cosa.png).convert()
     bola = pg.draw.circle(pantalla,(255,255,0), (x, y), 10)
 
     pg.display.flip()
